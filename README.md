@@ -8,6 +8,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## 디렉토리 구조
 - `백준` : 백준 문제 풀이 -> 현재 서비스 종료
 - `programmers` : 프로그래머스 문제 풀이
+- `자료구조` : 자료구조 구현
 
 ## 학습 목표
 - 코딩 테스트 대비
