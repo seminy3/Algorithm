@@ -1,13 +1,8 @@
-def solution(prices): #prices = 초 단위 주식 가격
-    share = []
-    
-    for x in range(len(prices)):    
-        t = 0
+def solution(prices):
+    share = [0] * len(prices)
+    for x in range(len(prices)):
         for i in range(x+1, len(prices)):
-            if(prices[i] >= prices[x]):
-                t += 1
-            else:
-                t += 1
+            share[x] +=1
+            if(prices[i] < prices[x]):
                 break
-        share.append(t)
     return share
